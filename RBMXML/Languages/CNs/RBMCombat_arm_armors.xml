@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="uEPRE33m" text="Rough Tied Bracers"/>
+  <string id="oEJnxsQ1" text="Armwraps"/>
+  <string id="jIwjYOVj" text="Ragged Armwraps"/>
+  <string id="lIJ1EVBh" text="Leather Gloves"/>
+  <string id="iD0ePqi7" text="Buttoned Leather Bracers"/>
+  <string id="e4lKZhgv" text="Roughtied Leather Bracers"/>
+  <string id="OEyuUWji" text="东方缠裹护臂"/>
+  <string id="a1BGHdaU" text="Guarded Armwraps"/>
+  <string id="8uBew3nD" text="Studded Vambraces"/>
+  <string id="DOYS7dmq" text="Strapped Leather Bracers"/>
+  <string id="MamotK0a" text="Padded Vambrace"/>
+  <string id="fUmehyHq" text="Woven Leather Bracers"/>
+  <string id="whvMZZba" text="Guarded Padded Vambrace"/>
+  <string id="i8S2PJB4" text="高地手套"/>
+  <string id="J3YHMkL3" text="Padded Mittens"/>
+  <string id="bxa4JHlU" text="Studded Leather Vambraces"/>
+  <string id="GcFAmAaR" text="东方皮护臂"/>
+  <string id="t01v8qW7" text="Lordly Padded Mittens"/>
+  <string id="PLtQdf23" text="Reinforced Padded Mittens"/>
+  <string id="gSaKwztg" text="高地贵族护腕"/>
+  <string id="CXnhFf1t" text="Reinforced Leather Vambraces"/>
+  <string id="UWPEu577" text="北方铜护腕"/>
+  <string id="Gs2f3aeh" text="板条护臂"/>
+  <string id="jLkVVTJh" text="东方夹板皮护臂"/>
+  <string id="g51zVsKU" text="Mail Mitten"/>
+  <string id="dPQGxmJ7" text="Reinforced Mail Mitten"/>
+  <string id="brLFIN46" text="高地军阀护腕"/>
+  <string id="2XEbqNQz" text="Decorated Imperial Gauntlets"/>
+  <string id="vNNMGllv" text="北方覆板手套"/>
+  <string id="VDMkVMxt" text="Heavy Mail Mittens"/>
+  <string id="XGX6DbFL" text="Lamellar Plate Gauntlets"/>
+ </strings>
+</base>

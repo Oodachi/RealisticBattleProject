@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="ZFETxZKP" text="Keffiyeh with Silken Band"/>
+  <string id="f2awUw9x" text="Colored Keffiyeh"/>
+  <string id="W8OGOfyt" text="Keffiyeh with Brown Band"/>
+  <string id="OrEgjXZ1" text="Roughspun Keffiyeh"/>
+  <string id="2rvCcBuS" text="棕色希贾布头巾"/>
+  <string id="S9htzkbe" text="Merchant&apos;s Hat"/>
+  <string id="baDdigZj" text="北方风格缠头"/>
+  <string id="VHPPqw9J" text="西方缠头"/>
+  <string id="6J0aJo7u" text="南方乡村头饰"/>
+  <string id="ZbmlNZpU" text="东方毛皮帽"/>
+  <string id="wW3iouiU" text="Hijab"/>
+  <string id="VXFwEF3M" text="Pilgrim&apos;s Hood"/>
+  <string id="AoJ4Ztl2" text="Bandit Leather Hood"/>
+  <string id="l91l1TJo" text="Colored Turban"/>
+  <string id="4n6n3KL7" text="Desert Headdress"/>
+  <string id="j5O8mt4I" text="西方缠头2"/>
+  <string id="f7RmWqJ2" text="西方围头巾"/>
+  <string id="8SNS2wF9" text="Turban"/>
+  <string id="Pv3YQMk1" text="高地缠裹包头巾"/>
+  <string id="NEupkuqV" text="Desert Headscarf"/>
+  <string id="sc2x2QRe" text="Headscarf with Fez"/>
+  <string id="KhXnRIan" text="Female Head Wrap"/>
+  <string id="FSa9qv8i" text="西方围巾"/>
+  <string id="fqHrMC1v" text="西方宽松围头巾"/>
+  <string id="qsVRoGUv" text="Open Head Scarf"/>
+  <string id="xYUHruEl" text="高地风帽"/>
+  <string id="frwBm3Oh" text="Cloth Headwrap"/>
+  <string id="02g6K4Yw" text="南方部落头巾"/>
+  <string id="ArPvuBYK" text="Woven Turban"/>
+  <string id="0bE9MxK4" text="南方缠裹帽"/>
+  <string id="7rGaUG0W" text="东方毛皮帽"/>
+  <string id="gUTqDROO" text="Closed Head Scarf"/>
+  <string id="4BaTgzia" text="南方帽"/>
+  <string id="UvJDlhMq" text="东方帽"/>
+  <string id="kmdjRAoG" text="Laced Cloth Coif"/>
+  <string id="uLpnmNkZ" text="Leather Cap"/>
+  <string id="Oa4h7TVi" text="Nomad Cap"/>
+  <string id="2VYmGLC6" text="北方皮帽"/>
+  <string id="8tHbqjmB" text="Peaked Fur Hood"/>
+  <string id="ndfDy5B8" text="Tied Head Wrapping"/>
+  <string id="U4n0uSlg" text="Tight Head Scarf"/>
+  <string id="3bqwOJ8z" text="Upturned Fur Cap"/>
+  <string id="sDWEWefz" text="Highland Ceremonial Crown"/>
+  <string id="smHA8Apa" text="Decorated Nomad Cap"/>
+  <string id="WF14UrdR" text="Golden Laurel Crown"/>
+  <string id="u5eafobF" text="Imperial Jeweled Band"/>
+  <string id="1b6T0M72" text="Austere Crown"/>
+  <string id="Dc4ia4m9" text="Padded Cap"/>
+  <string id="zQv3w264" text="Padded Half Coif"/>
+  <string id="SV1pTR2P" text="Padded Coif"/>
+  <string id="Qazvdg1P" text="帝国布制围帽"/>
+  <string id="wEJAab0A" text="北方帽"/>
+  <string id="Ybq7jZDj" text="高地薄兽皮围帽"/>
+  <string id="qFL0VxZX" text="Laced Coif"/>
+  <string id="mFbFEOVz" text="北方毛皮帽"/>
+  <string id="yMi4ijgI" text="Nomad Padded Hood"/>
+  <string id="WUArer5A" text="Open Padded Coif"/>
+  <string id="ZEybMjoq" text="北方粗兽皮帽"/>
+  <string id="mlJKNbbn" text="Leather Coif"/>
+  <string id="Da1bV3ph" text="帝国填充围帽"/>
+  <string id="aPa3Cp4l" text="帝国皮制围帽"/>
+  <string id="ZuOWvXMB" text="高地皮革镶钉盔"/>
+  <string id="beMSPAOG" text="Leather Studdedhelm Over Headcloth"/>
+  <string id="2m1kWsao" text="Leather Studdedhelm Over Thinhide"/>
+  <string id="B7tbURzI" text="Wolf Head"/>
+  <string id="X1Wn0sBa" text="Leather Studdedhelm Over Roughscale"/>
+  <string id="SHZ0P7Iu" text="Padded Leather Cape"/>
+  <string id="ewSpZ10R" text="Rough Padded Cap"/>
+  <string id="7D3jvAfS" text="Hide Cap"/>
+  <string id="OpYdqPWs" text="Open Mail Coif"/>
+  <string id="YteV789y" text="高地毛皮盔"/>
+  <string id="GXmDq2KR" text="Bear Head"/>
+  <string id="nNGCuIUf" text="帝国开面链甲围帽"/>
+  <string id="77RIGK7B" text="Mail Coif"/>
+  <string id="xsO9LNmO" text="帝国链甲围帽"/>
+  <string id="xkX9T0yT" text="南方宽松缠裹头盔"/>
+  <string id="noqT1MMC" text="Ornate Steel Cap"/>
+  <string id="T49rswmY" text="开面南方盔"/>
+  <string id="ZRDoABz9" text="Plumed Fur Lined Helmet"/>
+  <string id="ITvet7CV" text="南方盔"/>
+  <string id="FZ6VCoKI" text="帝国王冠"/>
+  <string id="4XAa0tca" text="闭面南方盔"/>
+  <string id="qoT97j7u" text="铜制圆顶锅盔"/>
+  <string id="bfFNYaiU" text="Cervelliere Over Laced Coif"/>
+  <string id="e9BpfZ9L" text="Cervelliere Over Cloth Headwrap"/>
+  <string id="4c7e0RCE" text="北方护鼻头盔"/>
+  <string id="5kAqcWac" text="Jeweled Fur Rimmed Helmet"/>
+  <string id="wG582fzT" text="Cervelliere Over Padded Cap"/>
+  <string id="7dAy51ln" text="Cervelliere Over Arming Coif"/>
+  <string id="z8d2uyY1" text="Segmented Cevelliere Over Laced Coif"/>
+  <string id="h6UXvU3B" text="Nasal Cervelliere Over Laced Coif"/>
+  <string id="kIMOcPgn" text="帝国铁制鼻护盔衬布"/>
+  <string id="SXCa9d1n" text="帝国铁制鼻护盔衬填充帽"/>
+  <string id="nUarDXVH" text="Iron Roundkettle Over Imperial Leather"/>
+  <string id="olamAwhb" text="Nasal Helmet Over Cloth Headwrap"/>
+  <string id="WvDZMmaj" text="Nomad Helmet"/>
+  <string id="vsavMoLZ" text="Segmented Cervelliere Over Padded Cloth"/>
+  <string id="e6WzpsWz" text="帝国铁制鼻护盔衬填充帽"/>
+  <string id="bubcrmTC" text="Nasal Helmet Over Padded Cloth"/>
+  <string id="6n44BIll" text="Pointed Skullcap Over Laced Coif"/>
+  <string id="aq8lbNZo" text="缀布南方盔"/>
+  <string id="Sn2O0Ogx" text="帝国铜制圆顶锅盔衬皮革"/>
+  <string id="Tp7zXWGa" text="Nasal Helmet Over Padded Coif"/>
+  <string id="4BfbPgkY" text="Nasal Cervelliere Over Padded Cap"/>
+  <string id="6Dk7LClc" text="Luxury Turban Over Helmet"/>
+  <string id="FWFDkjBk" text="Nasal Helmet Over Laced Coif"/>
+  <string id="m3Nv9rt2" text="Plumed Nomad Helmet"/>
+  <string id="vbOjUu9M" text="帝国尖刺锅盔衬填充帽"/>
+  <string id="PyeZ22FL" text="Bronze Cap With Cheek Guards"/>
+  <string id="KmZHXINa" text="帝国铜制护鼻盔衬皮革"/>
+  <string id="JjLQ2VdT" text="Nasal Cervelliere Over Padded Coif"/>
+  <string id="ebHdQfbX" text="Spangenhelm With Padded Cloth"/>
+  <string id="LqA9uBH9" text="Pointed Skullcap Over Cloth Headwrap"/>
+  <string id="UVdYqQGj" text="穗饰装饰护颊铜帽"/>
+  <string id="TxAYmCjr" text="Nasal Helmet With Leather"/>
+  <string id="maYSspDY" text="帝国圆顶锅盔衬布"/>
+  <string id="HBaSQlSJ" text="Fringed Bronze Cap With Cheek Guards"/>
+  <string id="G40DJB7q" text="南方盔衬链甲"/>
+  <string id="B5akzp6B" text="羽饰铁制十字盔"/>
+  <string id="EWR2MNeM" text="Nasal Helmet With Mail"/>
+  <string id="AVcbBH1J" text="北方鼻护盔衬皮革"/>
+  <string id="Rhfp7ath" text="Peaked Helmet Over Laced Coif"/>
+  <string id="9BENgwRK" text="Roundkettle Over Laced Cloth"/>
+  <string id="R4RT36MH" text="东方盔"/>
+  <string id="KbW3IFOd" text="双叉铜王冠"/>
+  <string id="vwAaIwnD" text="闭面南方盔配链甲"/>
+  <string id="qaraQjXa" text="帝国圆顶锅盔衬填充帽"/>
+  <string id="3Z91Nxbf" text="Spangenhelm With Leather"/>
+  <string id="TFT2Xapz" text="Peaked Helmet Over Padded Cloth"/>
+  <string id="RDbqA36B" text="Ridged Decorated Bronze Cap With Cheek Guards"/>
+  <string id="KoyU5yeY" text="Fringed Decorated Bronze Cap With Cheek Guards"/>
+  <string id="IX3kafcb" text="Iron Spiked Kettle Over Mail"/>
+  <string id="3DV3GoHb" text="Pointed Skullcap with Mail"/>
+  <string id="VylHwqVq" text="Segmented Skullcap Over Laced Coif"/>
+  <string id="HvjviTTW" text="Steel Cap With Cheek Guards"/>
+  <string id="rXO7ajRX" text="帝国铜制圆顶锅盔衬链甲"/>
+  <string id="9Hr4oEvw" text="帝国圆顶锅盔衬皮革"/>
+  <string id="1bdDdwub" text="Nasalhelm Over Mail"/>
+  <string id="zAvb7WKe" text="Segmented Skullcap Over Padded Coif"/>
+  <string id="bzrVXGAl" text="Bronze Feathered Spangenhelm Over Leather"/>
+  <string id="MvvlKO0U" text="羽饰铁制十字盔衬皮革"/>
+  <string id="2qisE5ys" text="Kettle Helmet Over Padded Cap"/>
+  <string id="YqhOxb1Z" text="Plumed Lamellar Helmet"/>
+  <string id="b1pqUQju" text="Segmented Skullcap Over Padded Cloth"/>
+  <string id="ZqbyJ5Pl" text="帝国铁制圆顶锅盔衬链甲"/>
+  <string id="HkwJao2z" text="Fringed Steel Cap With Cheek Guards"/>
+  <string id="AB1mV5Pg" text="Kettle Helmet Over Laced Coif"/>
+  <string id="mRGIxvYh" text="Nasal Cervelliere Over Mail Coif"/>
+  <string id="Jpt1WvTM" text="卫士锅盔衬系带围帽"/>
+  <string id="VcbEaV7T" text="Kettle Helmet Over Padded Cloth"/>
+  <string id="OzUsuoDO" text="北方盔"/>
+  <string id="2MdVVkVL" text="Kettle Hat Over Padded Coif"/>
+  <string id="bdpjqoGe" text="Segmented Cevelliere Over Mail"/>
+  <string id="9FgxK9se" text="Tall Helmet"/>
+  <string id="wBfGpcCO" text="Kettle Hat Over Padded Cloth"/>
+  <string id="1GpTOIqU" text="Kettle Helmet Over Padded Coif"/>
+  <string id="xS7m37o7" text="Pointed Skullcap Over Mail"/>
+  <string id="JEaU5XOP" text="北方开面盔"/>
+  <string id="tpQLvMSM" text="Nasal Helmet Over Mail"/>
+  <string id="FHu0bGub" text="北方覆面盔"/>
+  <string id="WMqHlEvb" text="Segmented Cevelliere Over Mail Coif"/>
+  <string id="ydxXW0ZW" text="北方盔衬皮革"/>
+  <string id="3iq3rOh8" text="Kettle Helmet Over Arming Coif"/>
+  <string id="siuuhU6b" text="帝国铜制鼻护盔衬链甲"/>
+  <string id="1Fdtj39w" text="帝国羽饰十字盔衬围帽"/>
+  <string id="ZV1bKLUn" text="Kettle Helmet With Leather"/>
+  <string id="ZOWdFaUi" text="Pointed Skullcap Over Mail Coif"/>
+  <string id="jakLnIQv" text="Roughscale Helmet"/>
+  <string id="1zFYpSSY" text="Fringed Decorated Steel Cap With Cheek Guards"/>
+  <string id="bAvyfxIy" text="卫士锅盔衬填充围帽"/>
+  <string id="PVgSGCYK" text="Nasal Helmet Over Mail Coif"/>
+  <string id="IPyPb4Dp" text="北方眼眶盔"/>
+  <string id="fBAf3OWb" text="Ornate Desert Battle Crown"/>
+  <string id="sQAXkEQ7" text="南方链甲围帽"/>
+  <string id="htACXBhH" text="帝国铁制鼻护盔衬链甲"/>
+  <string id="5c4cHL9Z" text="Khuzait Battle Crown"/>
+  <string id="DYwjfcM8" text="帝国尖刺锅盔衬链甲"/>
+  <string id="51EcVnzd" text="Visored Helmet Over Laced Coif"/>
+  <string id="o67ySkfH" text="Plated Helmet"/>
+  <string id="Xs8a5YxN" text="南方领主盔"/>
+  <string id="wQY1oqdK" text="Ridged Decorated Steel Cap With Cheek Guards"/>
+  <string id="UsOgGylA" text="Kettle Helmet With Mail"/>
+  <string id="JvhvtKsT" text="Peaked Helmet Over Mail"/>
+  <string id="JTrZ8ugB" text="帝国圆顶锅盔衬链甲"/>
+  <string id="P8GrNSkF" text="Segmented Skullcap Over Mail Coif"/>
+  <string id="A8MJWbhf" text="Visored Helmet Over Padded Cloth"/>
+  <string id="efW2XbK8" text="Emir&apos;s Helmet"/>
+  <string id="UoHZGyZa" text="Helmet With Faceguard"/>
+  <string id="vtoxbHmB" text="高地脊盔"/>
+  <string id="ygfhbfr0" text="Spiked Helmet"/>
+  <string id="KpyTaAwL" text="Highland Plated Noble Helmet"/>
+  <string id="Ze9u7Saj" text="羽饰铁制十字盔衬链甲"/>
+  <string id="AdafHtud" text="Peaked Helmet Over Mail Coif"/>
+  <string id="ESqqwNDd" text="南方贵族盔"/>
+  <string id="z6eTba5h" text="Heavy Nasalhelm Over Laced Cloth"/>
+  <string id="XazcYatD" text="帝国护鼻盔"/>
+  <string id="mtVcMgWO" text="羽饰铜制十字盔衬链甲"/>
+  <string id="zkt4AwSi" text="铜护面骑士盔"/>
+  <string id="9j9fb5pR" text="Plated Helmet with Sideguards"/>
+  <string id="agqzAXa9" text="Visored Helmet Over Padded Coif"/>
+  <string id="WCbpw1wM" text="帝国重型鼻护盔衬填充帽"/>
+  <string id="LSgDVSfl" text="西方王冠盔"/>
+  <string id="H41qKfaL" text="Highland Noble Helmet with Feather"/>
+  <string id="bQXR1jzG" text="东方护颈贵族盔"/>
+  <string id="axaK9y6E" text="Closed Knight Helmet"/>
+  <string id="oIOYBIbv" text="北方闭面盔"/>
+  <string id="AK0lNDmN" text="Jeweled Plumed Battle Crown"/>
+  <string id="sJ1R62Tn" text="Plumed Helmet"/>
+  <string id="FSGtJ7eX" text="帝国重型鼻护盔衬皮革"/>
+  <string id="tMLH04n4" text="Kettle Hat Over Mail Coif"/>
+  <string id="MZzQZcCf" text="东方羽饰贵族盔"/>
+  <string id="kweDHlz8" text="西方夹板王冠盔"/>
+  <string id="brvgn9Ja" text="东方文德尔盔"/>
+  <string id="qc0P0b2r" text="Goggled Helmet Over Mail"/>
+  <string id="zZ2G7uIO" text="Kettle Helmet Over Mail"/>
+  <string id="EOplBvKz" text="Imperial Plumed Helmet"/>
+  <string id="r8b5miDE" text="卫士锅盔衬链甲围帽"/>
+  <string id="TpjbgasA" text="北方军阀盔"/>
+  <string id="mAEjSAlV" text="北方闭面盔衬链甲"/>
+  <string id="loHYOJA9" text="北方领主盔配开面链甲围帽"/>
+  <string id="YAOfXanz" text="北方领主盔"/>
+  <string id="a2XnhQ3V" text="闭面北方盔"/>
+  <string id="meC5HTQD" text="北方军阀盔衬链甲"/>
+  <string id="5n4rWI9T" text="Spiked Helmet With Facemask"/>
+  <string id="d8DrtmwP" text="Visored Helmet Over Mail Coif"/>
+  <string id="Gxual4pG" text="金属条帝国盔"/>
+  <string id="xl5MgK49" text="Sturgia Heavy Cavalry Helmet"/>
+  <string id="YDibTDob" text="Highland Crowned Helmet"/>
+  <string id="wEfZyccm" text="Full Helm Over Laced Coif"/>
+  <string id="VXER7AbJ" text="帝国领主盔"/>
+  <string id="SYvBTD0p" text="Full Helm Over Cloth Headwrap"/>
+  <string id="WYytQbvS" text="Full Helm Over Arming Coif"/>
+  <string id="ITUNob5T" text="帝国重型鼻护盔衬链甲"/>
+  <string id="BD07fj39" text="Imperial Jewelled Helmet"/>
+  <string id="OFxwPQyA" text="Battle Crown"/>
+  <string id="xnoAJwoy" text="Full Helm Over Padded Cloth"/>
+  <string id="ljE4zLrf" text="北方军阀盔衬全覆链甲"/>
+  <string id="qVj5NqrL" text="Full Helm Over Padded Cap"/>
+  <string id="gLfxeU17" text="帝国护缘领主盔"/>
+  <string id="X3FAb6Wm" text="北方装饰覆面盔"/>
+  <string id="XoISdMVx" text="东方毛毡贵族盔"/>
+  <string id="FsDZC8Yl" text="Full Helm Over Mail Coif"/>
+  <string id="wSaoZOr2" text="北方羽饰尖顶领主盔"/>
+ </strings>
+</base>

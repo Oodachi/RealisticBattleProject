@@ -715,8 +715,8 @@ namespace RBMCombat
                         sweetSpotOut = sweetSpot;
                         sweetSpotComparedOut = sweetSpotCompared;
 
-                        string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                        string combinedDamageComparedString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
+                        string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                        string combinedDamageComparedString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
                         for (float i = 0; i <= 100; i += 10)
                         {
                             if (shouldBreakNextTime)
@@ -737,8 +737,8 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
-                                combinedDamageComparedString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamageCompared) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamageCompared)) + " B: " + MathF.Floor(bluntForceCompared) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageComparedString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamageCompared) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamageCompared)) + "钝:" + MathF.Floor(bluntForceCompared) + "\n";
                             }
                             else
                             {
@@ -749,7 +749,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                             }
                         }
                         swingCombinedStringOut = combinedDamageString;
@@ -775,8 +775,8 @@ namespace RBMCombat
 
                         bool shouldBreakNextTime = false;
 
-                        string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                        string combinedDamageComparedString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
+                        string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                        string combinedDamageComparedString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
                         for (float i = 0; i <= 100; i += 10)
                         {
                             if (shouldBreakNextTime)
@@ -799,8 +799,8 @@ namespace RBMCombat
                                 }
 
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamageCompared });
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
-                                combinedDamageComparedString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamageCompared) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamageCompared)) + " B: " + MathF.Floor(bluntForceCompared) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageComparedString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamageCompared) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamageCompared)) + "钝:" + MathF.Floor(bluntForceCompared) + "\n";
                             }
                             else
                             {
@@ -812,7 +812,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                         }
@@ -845,11 +845,11 @@ namespace RBMCombat
                 {
                     if (comparedWeapon.IsEmpty)
                     {
-                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Shield Armor: "), targetWeapon.GetModifiedBodyArmor(), targetWeapon.GetModifiedBodyArmor() });
+                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("盾甲: "), targetWeapon.GetModifiedBodyArmor(), targetWeapon.GetModifiedBodyArmor() });
                     }
                     else
                     {
-                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Shield Armor: "), targetWeapon.GetModifiedBodyArmor(), comparedWeapon.GetModifiedBodyArmor() });
+                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("盾甲: "), targetWeapon.GetModifiedBodyArmor(), comparedWeapon.GetModifiedBodyArmor() });
                     }
                 }
                 if (!targetWeapon.IsEmpty && targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex) != null && targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).IsRangedWeapon)
@@ -877,16 +877,18 @@ namespace RBMCombat
 
                             int calculatedMissileSpeed = Utilities.calculateMissileSpeed(ammoWeightIdeal, targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).ItemUsage, drawWeight);
 
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM Stats", "", 1, null });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM 统计", "", 1, null });
 
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Ideal Ammo Weight Range/Damage, grams: "), MathF.Round(ammoWeightIdeal * 1000f), MathF.Round(ammoWeightIdeal * 1000f) });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Initial Missile Speed, m/s: "), calculatedMissileSpeed, calculatedMissileSpeed });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("弹药重量(克)的理论范围/伤害: "), MathF.Round(ammoWeightIdeal * 1000f), MathF.Round(ammoWeightIdeal * 1000f) });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("投射物初始速度(m/s): "), calculatedMissileSpeed, calculatedMissileSpeed });
 
                             //pierceArrows
                             bool shouldBreakNextTime = false;
                             float missileMagnitude = CalculateMissileMagnitude(WeaponClass.Arrow, ammoWeightIdeal, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex) + 100f, 1f, DamageTypes.Pierce);
-                            string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage Pierce", 1, null });
+                            // string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Force Trauma\n";
+                            string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            // methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage Pierce", 1, null });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "投射物穿刺伤害", 1, null });
                             for (float i = 0; i <= 100; i += 10)
                             {
                                 if (shouldBreakNextTime)
@@ -901,7 +903,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -909,8 +911,8 @@ namespace RBMCombat
                             //cut arrows
                             shouldBreakNextTime = false;
                             missileMagnitude = CalculateMissileMagnitude(WeaponClass.Arrow, ammoWeightIdeal, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex) + 115f, 1f, DamageTypes.Cut);
-                            combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage Cut", 1, null });
+                            combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "投射物挥砍伤害", 1, null });
                             for (float i = 0; i <= 100; i += 10)
                             {
                                 if (shouldBreakNextTime)
@@ -925,7 +927,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -939,16 +941,16 @@ namespace RBMCombat
 
                             int calculatedMissileSpeed = Utilities.calculateMissileSpeed(ammoWeightIdeal, targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).ItemUsage, drawWeight);
 
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM Stats", "", 1, null });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM 统计", "", 1, null });
 
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Ideal Ammo Weight Range/Damage, grams: "), MathF.Round(ammoWeightIdeal * 1000f), MathF.Round(ammoWeightIdeal * 1000f) });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Initial Missile Speed, m/s: "), calculatedMissileSpeed, calculatedMissileSpeed });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("弹药重量(克)的理论范围/伤害: "), MathF.Round(ammoWeightIdeal * 1000f), MathF.Round(ammoWeightIdeal * 1000f) });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("投射物初始速度(m/s): "), calculatedMissileSpeed, calculatedMissileSpeed });
 
                             //pierce bolts
                             bool shouldBreakNextTime = false;
                             float missileMagnitude = CalculateMissileMagnitude(WeaponClass.Bolt, ammoWeightIdeal, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex) + 100f, 1f, DamageTypes.Pierce);
-                            string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Force Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage Pierce", 1, null });
+                            string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "投射物穿刺伤害", 1, null });
                             for (float i = 0; i <= 100; i += 10)
                             {
                                 if (shouldBreakNextTime)
@@ -963,7 +965,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -971,8 +973,8 @@ namespace RBMCombat
                             //cut bolts
                             shouldBreakNextTime = false;
                             missileMagnitude = CalculateMissileMagnitude(WeaponClass.Bolt, ammoWeightIdeal, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex) + 115f, 1f, DamageTypes.Cut);
-                            combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage Cut", 1, null });
+                            combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "投射物挥砍伤害", 1, null });
                             for (float i = 0; i <= 100; i += 10)
                             {
                                 if (shouldBreakNextTime)
@@ -987,7 +989,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -996,15 +998,15 @@ namespace RBMCombat
                         {
                             int calculatedMissileSpeed = Utilities.assignThrowableMissileSpeed(targetWeapon.Weight, (int)Utilities.throwableCorrectionSpeed, effectiveSkill);
 
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM Stats", "", 1, null });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Relevant Skill: "), effectiveSkill, effectiveSkill });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Initial Missile Speed, m/s: "), calculatedMissileSpeed, calculatedMissileSpeed });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM 统计", "", 1, null });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("相关技能: "), effectiveSkill, effectiveSkill });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("投射物初始速度(m/s): "), calculatedMissileSpeed, calculatedMissileSpeed });
 
                             //pierceArrows
                             bool shouldBreakNextTime = false;
                             float missileMagnitude = CalculateMissileMagnitude(WeaponClass.Javelin, targetWeapon.Weight, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex), 1f, targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).ThrustDamageType);
-                            string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage", 1, null });
+                            string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "弹道伤害", 1, null });
                             float weaponDamageFactor = (float)Math.Sqrt(Utilities.getThrustDamageFactor(targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex), targetWeapon.ItemModifier));
                             for (float i = 0; i <= 100; i += 10)
                             {
@@ -1020,7 +1022,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -1031,9 +1033,9 @@ namespace RBMCombat
                         {
                             int calculatedMissileSpeed = Utilities.assignThrowableMissileSpeed(targetWeapon.Weight, 0, effectiveSkill);
 
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM Stats", "", 1, null });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Relevant Skill: "), effectiveSkill, effectiveSkill });
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Initial Missile Speed, m/s: "), calculatedMissileSpeed, calculatedMissileSpeed });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM 统计", "", 1, null });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("相关技能: "), effectiveSkill, effectiveSkill });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("投射物初始速度(m/s): "), calculatedMissileSpeed, calculatedMissileSpeed });
 
                             //pierceArrows
                             bool shouldBreakNextTime = false;
@@ -1042,8 +1044,8 @@ namespace RBMCombat
                             {
                                 missileMagnitude = CalculateMissileMagnitude(targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).WeaponClass, targetWeapon.Weight, calculatedMissileSpeed, targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex), 1f, targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).SwingDamageType);
                             }
-                            string combinedDamageString = "A-Armor\nD-Damage Inflicted\nP-Penetrated Damage\nB-Blunt Focre Trauma\n";
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Missile Damage", 1, null });
+                            string combinedDamageString = "甲-护甲 砍-挥砍\n刺-穿刺 钝-钝击\n";
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "弹道伤害", 1, null });
                             float weaponDamageFactor = (float)Math.Sqrt(targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).ThrustDamageFactor);
                             if (targetWeapon.Item.GetWeaponWithUsageIndex(targetWeaponUsageIndex).WeaponClass == WeaponClass.ThrowingAxe)
                             {
@@ -1074,7 +1076,7 @@ namespace RBMCombat
                                 {
                                     shouldBreakNextTime = true;
                                 }
-                                combinedDamageString += "A: " + String.Format("{0,3}", i) + " D: " + String.Format("{0,-5}", realDamage) + " P: " + String.Format("{0,-5}", MathF.Floor(penetratedDamage)) + " B: " + MathF.Floor(bluntForce) + "\n";
+                                combinedDamageString += "甲:" + String.Format("{0,-3}", i) + " 砍:" + String.Format("{0,-3}", realDamage) + "刺:" + String.Format("{0,-3}", MathF.Floor(penetratedDamage)) + "钝:" + MathF.Floor(bluntForce) + "\n";
                                 //methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage " + i + " Armor: "), realDamage, realDamage });
                             }
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(combinedDamageString));
@@ -1089,38 +1091,38 @@ namespace RBMCombat
 
                     if (currentSelectedChar != null)
                     {
-                        methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM Stats", "", 1, null });
+                        methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "RBM 统计", "", 1, null });
 
-                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Relevant Skill: "), relevantSkill, relevantSkill });
+                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("相关技能: "), relevantSkill, relevantSkill });
 
-                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Swing Damage Factor:"), MathF.Round(swingDamageFactor * 100f), MathF.Round(swingDamageFactorCompared * 100f) });
-                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Thrust Damage Factor:"), MathF.Round(thrustDamageFactor * 100f), MathF.Round(thrustDamageFactorCompared * 100f) });
+                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("挥砍伤害系数: "), MathF.Round(swingDamageFactor * 100f), MathF.Round(swingDamageFactorCompared * 100f) });
+                        methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("穿刺伤害系数: "), MathF.Round(thrustDamageFactor * 100f), MathF.Round(thrustDamageFactorCompared * 100f) });
 
-                        methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("Swing Speed, m/s:"), swingSpeed, swingSpeedCompred, false });
-                        methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("Thrust Speed, m/s: "), thrustSpeed, thrustSpeedCompred, false });
+                        methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("挥砍速度(m/s): "), swingSpeed, swingSpeedCompred, false });
+                        methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("穿刺速度(m/s): "), thrustSpeed, thrustSpeedCompred, false });
 
                         if (targetWeapon.GetModifiedSwingDamageForUsage(targetWeaponUsageIndex) > 0f)
                         {
-                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Swing Sweet Spot, %: "), MathF.Floor(sweetSpotOut * 100f), MathF.Floor(sweetSpotComparedOut * 100f) });
+                            methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("挥砍有效伤害部位(%): "), MathF.Floor(sweetSpotOut * 100f), MathF.Floor(sweetSpotComparedOut * 100f) });
 
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Swing Damage (Hover)", 1, null });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "挥砍伤害(悬停显示详细信息)", 1, null });
 
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(swingCombinedStringOut));
                             if (!comparedWeapon.IsEmpty)
                             {
-                                methodCreateProperty.Invoke(__instance, new object[] { __instance.ComparedItemProperties, "", "Swing Damage (Hover)", 1, null });
+                                methodCreateProperty.Invoke(__instance, new object[] { __instance.ComparedItemProperties, "", "挥砍伤害(悬停显示详细信息)", 1, null });
                                 __instance.ComparedItemProperties[__instance.ComparedItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(swingCombinedStringComparedOut));
                             }
                         }
 
                         if (targetWeapon.GetModifiedThrustDamageForUsage(targetWeaponUsageIndex) > 0f)
                         {
-                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "Thrust Damage (Hover)", 1, null });
+                            methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", "穿刺伤害(悬停显示详细信息)", 1, null });
 
                             __instance.TargetItemProperties[__instance.TargetItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(thrustCombinedStringOut));
                             if (!comparedWeapon.IsEmpty)
                             {
-                                methodCreateProperty.Invoke(__instance, new object[] { __instance.ComparedItemProperties, "", "Thrust Damage (Hover)", 1, null });
+                                methodCreateProperty.Invoke(__instance, new object[] { __instance.ComparedItemProperties, "", "穿刺伤害(悬停显示详细信息)", 1, null });
                                 __instance.ComparedItemProperties[__instance.ComparedItemProperties.Count - 1].PropertyHint = new HintViewModel(new TextObject(thrustCombinedStringComparedOut));
                             }
                         }
@@ -1134,9 +1136,9 @@ namespace RBMCombat
                                 foreach (WeaponDesignElement wde in targetWeapon.Item.WeaponDesign.UsedPieces)
                                 {
                                     methodCreateProperty.Invoke(__instance, new object[] { __instance.TargetItemProperties, "", wde.CraftingPiece.StringId + " " + wde.CraftingPiece.Name, 1, null });
-                                    methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("Scale Percentage:"), wde.ScalePercentage, wde.ScalePercentage });
-                                    methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("Weight:"), wde.CraftingPiece.Weight, wde.CraftingPiece.Weight, false });
-                                    methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("Length:"), wde.CraftingPiece.Length, wde.CraftingPiece.Length, false });
+                                    methodAddIntProperty.Invoke(__instance, new object[] { new TextObject("比例:"), wde.ScalePercentage, wde.ScalePercentage });
+                                    methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("重量:"), wde.CraftingPiece.Weight, wde.CraftingPiece.Weight, false });
+                                    methodAddFloatProperty.Invoke(__instance, new object[] { new TextObject("长度:"), wde.CraftingPiece.Length, wde.CraftingPiece.Length, false });
                                 }
                             }
                         }
@@ -1167,20 +1169,20 @@ namespace RBMCombat
                     float abdomenArmor = ArmorRework.GetBaseArmorEffectivenessForBodyPartRBMHuman(equipment, BoneBodyPartType.Abdomen);
                     float legsArmor = ArmorRework.GetBaseArmorEffectivenessForBodyPartRBMHuman(equipment, BoneBodyPartType.Legs);
 
-                    combinedHeadString += String.Format("{0,-32}", "Head Armor: ") + headArmor + "\n";
+                    combinedHeadString += String.Format("{0,-5}", "头甲: ") + headArmor + "\n";
                     if (!equipment[EquipmentIndex.Head].IsEmpty)
                     {
                         float faceArmor = equipment[EquipmentIndex.Head].GetModifiedBodyArmor();
 
-                        combinedHeadString += String.Format("{0,-33}", "Face Armor: ") + faceArmor + "\n";
+                        combinedHeadString += String.Format("{0,-5}", "面甲: ") + faceArmor + "\n";
                     }
-                    combinedHeadString += String.Format("{0,-32}", "Neck Armor: ") + neckArmor;
+                    combinedHeadString += String.Format("{0,-5}", "颈甲: ") + neckArmor;
 
-                    combinedBodyString += String.Format("{0,-28}", "Shoulder Armor: ") + shoulderArmor + "\n";
-                    combinedBodyString += String.Format("{0,-32}", "Chest Armor: ") + chestArmor + "\n";
-                    combinedBodyString += String.Format("{0,-27}", "Abdomen Armor: ") + abdomenArmor;
+                    combinedBodyString += String.Format("{0,-5}", "肩甲: ") + shoulderArmor + "\n";
+                    combinedBodyString += String.Format("{0,-5}", "胸甲: ") + chestArmor + "\n";
+                    combinedBodyString += String.Format("{0,-5}", "腹甲: ") + abdomenArmor;
 
-                    combinedArmString += String.Format("{0,-33}", "Arm Armor: ") + armArmor + "\n";
+                    combinedArmString += String.Format("{0,-5}", "手甲: ") + armArmor + "\n";
                     if (!equipment[EquipmentIndex.Body].IsEmpty)
                     {
                         float underShoulderArmor = (equipment[EquipmentIndex.Body].GetModifiedArmArmor());
@@ -1188,10 +1190,10 @@ namespace RBMCombat
                         {
                             underShoulderArmor += equipment[EquipmentIndex.Cape].GetModifiedArmArmor();
                         }
-                        combinedArmString += String.Format("{0,-0}", "Lower Shoulder Armor: ") + underShoulderArmor;
+                        combinedArmString += String.Format("{0,-5}", "臂甲: ") + underShoulderArmor;
                     }
 
-                    combinedLegString += String.Format("{0,-33}", "Legs Armor: ") + legsArmor;
+                    combinedLegString += String.Format("{0,-5}", "腿甲: ") + legsArmor;
                 }
             }
         }
@@ -1295,24 +1297,24 @@ namespace RBMCombat
                             out string swingCombinedStringOut, out string swingCombinedStringComparedOut, out string thrustCombinedStringOut, out string thrustCombinedStringComparedOut,
                             out float swingDamageFactor, out float swingDamageFactorCompared, out float thrustDamageFactor, out float thrustDamageFactorCompared);
 
-                                hintText += "RBM Stats\n";
-                                hintText += "Relevant Skill: " + relevantSkill + "\n";
-                                hintText += "Swing Damage Factor: " + MathF.Round(swingDamageFactor * 100f) + "\n";
-                                hintText += "Thrust Damage Factor: " + MathF.Round(thrustDamageFactor * 100f) + "\n";
-                                hintText += "Swing Speed, m/s: " + swingSpeed + "\n";
-                                hintText += "Thrust Speed, m/s: " + thrustSpeed + "\n";
+                                hintText += "RBM统计\n";
+                                hintText += "相关技能: " + relevantSkill + "\n";
+                                hintText += "挥砍伤害系数:  " + MathF.Round(swingDamageFactor * 100f) + "\n";
+                                hintText += "穿刺伤害系数:  " + MathF.Round(thrustDamageFactor * 100f) + "\n";
+                                hintText += "挥砍速度(m/s): " + swingSpeed + "\n";
+                                hintText += "穿刺速度(m/s): " + thrustSpeed + "\n";
 
                                 if (eq.GetModifiedSwingDamageForUsage(usageindex) > 0f)
                                 {
-                                    hintText += "Swing Sweet Spot, %:" + MathF.Floor(sweetSpotOut * 100f) + "\n";
+                                    hintText += "挥砍有效伤害部位(%):" + MathF.Floor(sweetSpotOut * 100f) + "\n";
 
-                                    hintText += "Swing Damage:\n";
+                                    hintText += "挥砍伤害:\n";
                                     hintText += swingCombinedStringOut + "\n";
                                 }
 
                                 if (eq.GetModifiedThrustDamageForUsage(usageindex) > 0f)
                                 {
-                                    hintText += "Thrust Damage:\n";
+                                    hintText += "穿刺伤害:\n";
                                     hintText += thrustCombinedStringOut + "\n";
                                 }
                                 propertyBasedTooltipVM.AddProperty("", hintText);

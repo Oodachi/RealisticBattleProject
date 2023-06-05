@@ -536,11 +536,11 @@ namespace RBMTournament
                     }
                     if (playerTier >= 5)
                     {
-                        InformationManager.DisplayMessage(new InformationMessage("Main tournament"));
+                        InformationManager.DisplayMessage(new InformationMessage("竞技大赛"));
                     }
                     else
                     {
-                        InformationManager.DisplayMessage(new InformationMessage("Lower tier tournament: Tier " + playerTier));
+                        InformationManager.DisplayMessage(new InformationMessage("次级竞技大赛: 段位 " + playerTier));
                     }
                     //CultureObject cultureMercenaryObject = Game.Current.ObjectManager.GetObject<CultureObject>("neutral");
                     CultureObject culture = Settlement.CurrentSettlement.Culture;
@@ -702,13 +702,13 @@ namespace RBMTournament
                                 int rollNeeded = 100 - MathF.Round(im.ProductionDropScore);
                                 if (roll >= rollNeeded)
                                 {
-                                    InformationManager.DisplayMessage(new InformationMessage("Congratulations, you successfully rolled for " + im.Name + " item modifier, rolled:" + roll + " needed: " + rollNeeded));
+                                    InformationManager.DisplayMessage(new InformationMessage("恭喜你，鉴定出了" + im.Name + "品质! 鉴定值:" + roll + " 需求值:" + rollNeeded));
                                     eePrize.SetModifier(im);
                                     break;
                                 }
                                 else
                                 {
-                                    InformationManager.DisplayMessage(new InformationMessage("You missed roll for " + im.Name + " item modifier, rolled:" + roll + " needed: " + rollNeeded));
+                                    InformationManager.DisplayMessage(new InformationMessage("你错过了" + im.Name + "品质, 鉴定值:" + roll + " 需求值: " + rollNeeded));
                                 }
                             }
                         }

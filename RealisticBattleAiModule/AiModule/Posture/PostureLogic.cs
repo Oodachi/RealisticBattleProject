@@ -201,11 +201,11 @@ namespace RBMAI
                                         {
                                             if (victimAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("架势突破:架势耗尽, 造成" + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                             }
                                             if (attackerAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Enemy Posture break: Posture depleted, " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("敌方架势突破: 架势耗尽, 造成" + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                             }
                                             if (!victimAgent.HasMount)
                                             {
@@ -272,11 +272,11 @@ namespace RBMAI
                                         {
                                             if (victimAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, perfect parry, " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 完美格挡, 造成" + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                             }
                                             if (attackerAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Enemy Posture break: Posture depleted, perfect parry, " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("敌方架势突破: 架势耗尽, 完美格挡, 造成" + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                             }
                                             if (postureDmg >= defenderPosture.maxPosture * 0.33f)
                                             {
@@ -305,7 +305,7 @@ namespace RBMAI
                                     {
                                         if (attackerAgent.IsPlayerControlled)
                                         {
-                                            InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, perfect parry", Color.FromUint(4282569842u)));
+                                            InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 完美格挡", Color.FromUint(4282569842u)));
                                         }
                                         if (!attackerAgent.HasMount)
                                         {
@@ -398,7 +398,7 @@ namespace RBMAI
                                         {
                                             if (victimAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, incorrect side block", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 格挡方向错误", Color.FromUint(4282569842u)));
                                             }
                                             if (!victimAgent.HasMount)
                                             {
@@ -451,7 +451,7 @@ namespace RBMAI
                                         {
                                             if (victimAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, correct side block", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 格挡方向正确", Color.FromUint(4282569842u)));
                                             }
                                             if (!victimAgent.HasMount)
                                             {
@@ -502,7 +502,7 @@ namespace RBMAI
                                         {
                                             if (victimAgent.IsPlayerControlled)
                                             {
-                                                InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, perfect parry, correct side block", Color.FromUint(4282569842u)));
+                                                InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 完美的格挡, 格挡方向正确", Color.FromUint(4282569842u)));
                                             }
                                             if (!victimAgent.HasMount)
                                             {
@@ -537,7 +537,7 @@ namespace RBMAI
                                     {
                                         if (attackerAgent.IsPlayerControlled)
                                         {
-                                            InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, perfect parry, correct side block", Color.FromUint(4282569842u)));
+                                            InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 完美的格挡, 格挡方向正确", Color.FromUint(4282569842u)));
                                         }
 
                                         {
@@ -576,7 +576,7 @@ namespace RBMAI
                                     {
                                         if (victimAgent.IsPlayerControlled)
                                         {
-                                            InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, chamber block", Color.FromUint(4282569842u)));
+                                            InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 触发挡反", Color.FromUint(4282569842u)));
                                         }
                                         makePostureBlow(ref __instance, __result, attackerAgent, victimAgent, ref collisionData, attackerWeapon, crushThroughState, blowDirection, swingDirection, cancelDamage, BlowFlags.NonTipThrust);
                                     }
@@ -594,7 +594,7 @@ namespace RBMAI
                                     float healthDamage = calculateHealthDamage(attackerWeapon, attackerAgent, victimAgent, postureDmg, __result, attackerAgent);
                                     if (attackerAgent.IsPlayerControlled)
                                     {
-                                        InformationManager.DisplayMessage(new InformationMessage("Posture break: Posture depleted, chamber block " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                        InformationManager.DisplayMessage(new InformationMessage("架势突破: 架势耗尽, 触发挡反造成 " + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                     }
                                     makePostureCrashThroughBlow(ref __instance, __result, attackerAgent, victimAgent, MathF.Floor(healthDamage), ref collisionData, attackerWeapon, crushThroughState, blowDirection, swingDirection, cancelDamage, BlowFlags.KnockDown);
                                     attackerPosture.posture = attackerPosture.maxPosture * postureResetModifier;
@@ -605,7 +605,7 @@ namespace RBMAI
                                     float healthDamage = calculateHealthDamage(attackerWeapon, attackerAgent, victimAgent, postureDmg, __result, attackerAgent);
                                     if (attackerAgent.IsPlayerControlled)
                                     {
-                                        InformationManager.DisplayMessage(new InformationMessage("Chamber block " + MathF.Floor(healthDamage) + " damage crushed through", Color.FromUint(4282569842u)));
+                                        InformationManager.DisplayMessage(new InformationMessage("触发挡反造成 " + MathF.Floor(healthDamage) + " 点碾压伤害", Color.FromUint(4282569842u)));
                                     }
                                     makePostureCrashThroughBlow(ref __instance, __result, attackerAgent, victimAgent, MathF.Floor(healthDamage), ref collisionData, attackerWeapon, crushThroughState, blowDirection, swingDirection, cancelDamage, BlowFlags.KnockBack);
                                     attackerPosture.posture = attackerPosture.maxPosture * postureResetModifier;

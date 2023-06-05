@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="Tqa0r78a" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在游击。"/>
+  <string id="Tqa0r78b" text="{?IS_RIGHT}右翼{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在实施骚扰战术{?}{\?}{?IS_LEFT}左翼{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在实施骚扰战术。{?}{\?}"/>
+  <string id="Tqa0r78c" text="步兵正在夹击"/>
+  <string id="Tqa0r78d" text="{TROOP_NAMES_BEGIN}{?IS_PLURAL}和{?}{\?}{TROOP_NAMES_END}正在向{?IS_PLURAL}多支敌军编队{?}一支敌军编队{\?}发起冲锋。"/>
+  <string id="Tqa0r781" text="射手正在从侧翼发起游击。"/>
+  <string id="Tqa0r782" text="骑兵正于步兵前方构建楔形阵"/>
+  <string id="Tqa0r78e" text="游击"/>
+  <string id="Tqa0r78f" text="实施骚扰战术!"/>
+  <string id="Tqa0r78g" text="从{?IS_GENERAL_SIDE}{?}{SIDE_STRING}{\?}翼包抄"/>
+  <string id="Tqa0r78h" text="冲锋"/>
+  <string id="Tqa0r78j" text="在{SIDE_STRING}翼游击"/>
+  <string id="Tqa0r783" text="于步兵前方构建楔形阵"/>
+  <string id="ATDone" text="完成"/>
+  <string id="ATCancel" text="取消"/>
+ </strings>
+</base>
