@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+    <string id="KFGfTXqE" text="驮马"/>
+    <string id="0s4IP7jB" text="老驮马"/>
+    <string id="CB97qhVM" text="骡子"/>
+    <string id="DlPOte0H" text="托运骆驼"/>
+    <string id="h7IWO4DV" text="纳哈撒维马"/>
+    <string id="sgfKrAaZ" text="巴旦尼亚矮种马"/>
+    <string id="IOt4KTHs" text="大陆骑乘马"/>
+    <string id="QwiI8Uho" text="斯特吉亚快步马"/>
+    <string id="AIu3kKvz" text="通用马"/>
+    <string id="CQBiJLgv" text="骆驼"/>
+    <string id="gnvIGThE" text="达西马"/>
+    <string id="tZN9H492" text="格林托尔矮种马"/>
+    <string id="mVAaWp5U" text="帕尔马廷马"/>
+    <string id="PZPphq6H" text="喀拉罕马"/>
+    <string id="Ejx5lXjk" text="雷维尔越障马"/>
+    <string id="MqBSmahz" text="瓦朗比骏马"/>
+    <string id="baIE2VQW" text="战争骆驼"/>
+    <string id="hunterhorse" text="猎马"/>
+    <string id="h5kfaD4v" text="军马"/>
+    <string id="Q4sO8AZd" text="瓦达尔热血马"/>
+    <string id="ueSnrLRy" text="科西亚马"/>
+    <string id="qXb7YoGc" text="阿萨利格马"/>
+    <string id="jhgVsWKr" text="Tyal Horse"/>
+    <string id="SZrd85Uh" text="王家竞技马"/>
+    <string id="Goloz0Vm" text="纳哈撒骆驼"/>
+    <string id="ccLDacS4" text="巴旦尼亚纯种马"/>
+    <string id="CIT7Zuxh" text="纯血马"/>
+    <string id="1aOuyULB" text="风暴军马"/>
+    <string id="UqdZmdcf" text="战马"/>
+    <string id="yGwxXsIL" text="草原战驹"/>
+    <string id="24xuA5G2" text="沙漠战马"/>
+    <string id="YAYhozbN" text="草原马"/>
+    <string id="QwiI8Uho" text="斯特吉亚快步马"/>
+    <string id="tBCm7Qqw" text="沙漠狂风"/>
+ </strings>
+</base>

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="0Pxq8UqX" text="Highland Cloak"/>
+  <string id="gGhrQa29" text="女式风帽"/>
+  <string id="GNdVXMue" text="Scarf"/>
+  <string id="rTuNnhWI" text="南方披肩"/>
+  <string id="qSn0JTfa" text="南方缠裹围巾"/>
+  <string id="Vdi0vZV7" text="Highland Cape"/>
+  <string id="UvOa4elc" text="Green Hood"/>
+  <string id="PhodGU5y" text="女式围巾"/>
+  <string id="FyXM8Iob" text="Desert Fabric Shoulderpad"/>
+  <string id="GazIGIJG" text="西方风帽"/>
+  <string id="SIdCIRfG" text="Brass Scale Pauldrons"/>
+  <string id="gfvG04SP" text="Desert Leather Shoulderpad"/>
+  <string id="QxzcuhmA" text="Leopard Pelt"/>
+  <string id="y9uMjAKT" text="Reinforced Suede Shoulders"/>
+  <string id="Ur3Q4U5x" text="Heavy Tartan Cape"/>
+  <string id="P4qzEu8D" text="强化护颈"/>
+  <string id="nBU3EXp6" text="高地肩带"/>
+  <string id="qGzZ78bM" text="Bolted Leather Strips"/>
+  <string id="WrwO8xsN" text="Stitched Leather Shoulders"/>
+  <string id="U0zBG3F9" text="Scale Pauldrons"/>
+  <string id="ubplQTXa" text="南方环甲护肩"/>
+  <string id="HkiLq2ry" text="高地毛皮护肩"/>
+  <string id="K4JtuMzP" text="巴丹尼亚林地斗篷"/>
+  <string id="h7VQk4jd" text="高地斗篷配肩带"/>
+  <string id="c7UNJSNi" text="Woven Leather Shoulders"/>
+  <string id="NZLTEI9c" text="东方皮护肩"/>
+  <string id="vSu1fLNl" text="高地毛皮斗篷"/>
+  <string id="wZ3nKO6j" text="东方皮肩甲"/>
+  <string id="Bl72Ribb" text="Padded Leather Shoulders"/>
+  <string id="YEUFtX4G" text="Wolf Shoulder"/>
+  <string id="OktZBAVC" text="南方铜鳞护肩"/>
+  <string id="TDCn5dar" text="帝国填充护肩"/>
+  <string id="tKODIU0F" text="Leather Lamellar Shoulders"/>
+  <string id="KZmZ9HXW" text="铜鳞护肩"/>
+  <string id="s7WRzaf2" text="Bear Pelt"/>
+  <string id="KKWEkA4P" text="Rough Bearskin"/>
+  <string id="WdZTrPpG" text="高地链甲护肩"/>
+  <string id="J1zcabv4" text="东方镶钉护肩"/>
+  <string id="82GMEKy8" text="鳞甲护肩2"/>
+  <string id="JkLoAelJ" text="Mail Shoulders"/>
+  <string id="MTDaLQOV" text="帝国长披风"/>
+  <string id="g7iQsvPw" text="帝国镶钉护颈"/>
+  <string id="27IgGO81" text="高地强化链甲护肩"/>
+  <string id="bX3P9X7I" text="大铜扎甲护肩"/>
+  <string id="8kUwD98O" text="帝国镶钉背带配扎甲肩甲"/>
+  <string id="6Ynb0K0f" text="南方强化铜鳞护肩"/>
+  <string id="28KBiS2H" text="北方大扎甲护肩"/>
+  <string id="Lt8nT1hb" text="Lamellar Shoulders"/>
+  <string id="Ldqb9oAF" text="Highland Warlord Pauldrons"/>
+  <string id="IbdUT6PA" text="南方强化鳞甲护肩"/>
+  <string id="Kj68cfhA" text="帝国扎板护肩"/>
+ </strings>
+</base>

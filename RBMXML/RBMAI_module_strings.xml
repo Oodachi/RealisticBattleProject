@@ -12,9 +12,9 @@
 	<string id="str_formation_ai_sergeant_instruction_behavior_text.RBMBehaviorCavalryCharge" text="{=Tqa0r78h}Charge at enemy" />
 	<string id="str_formation_ai_sergeant_instruction_behavior_text.RBMBehaviorArcherFlank" text="{=Tqa0r78j}Skirmish from {SIDE_STRING} flank" />
 	<string id="str_formation_ai_sergeant_instruction_behavior_text.RBMBehaviorEmbolon" text="{=Tqa0r783}Form flying wedge in front of infantry"/>
-	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitArchers" text="{=!}Our plan is to attack with full force and flank with archers." />
-	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitInfantry" text="{=!}Our plan is to split infantry and crush them from all sides." />
-	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitSkirmishers" text="{=!}Our plan is to bait them with skirmishers then crush them with full focre." />
-	<string id="str_team_ai_tactic_text.RBMTacticDefendSplitArchers" text="{=!}Our plan is to form a defensive line with archers on flanks." />
-	<string id="str_team_ai_tactic_text.RBMTacticEmbolon" text="{=!}Our plan is to charge head-on with our cavalry then crush disorganized formations." />
+	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitArchers" text="{=!}我们的计划是全力进攻，弓箭手从侧翼包抄。" />
+	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitInfantry" text="{=!}我们的计划是分割步兵阵线，对其进行多点进攻。" />
+	<string id="str_team_ai_tactic_text.RBMTacticAttackSplitSkirmishers" text="{=!}我们的计划是用散兵作诱饵，形成局部优势局面碾碎他们。" />
+	<string id="str_team_ai_tactic_text.RBMTacticDefendSplitArchers" text="{=!}我们的计划是利用射手在侧翼构筑防线。" />
+	<string id="str_team_ai_tactic_text.RBMTacticEmbolon" text="{=!}我们的计划是利用骑兵正面冲锋，冲散敌方阵型。" />
 </strings>

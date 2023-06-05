@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="pa3E7810" text="Siege Preparations"/>
+  <string id="G0AWk1rX" text="Ladder"/>
+  <string id="aXjlMBiE" text="Siege Tower"/>
+  <string id="6UPgDokE" text="Advanced Siege Tower"/>
+  <string id="abbALYlp" text="Ballista"/>
+  <string id="NeWvHjCw" text="Fire Ballista"/>
+  <string id="Ew11a1Tx" text="Catapult"/>
+  <string id="Wg2P3acK" text="Fire Catapult"/>
+  <string id="GPESFoWD" text="Onager"/>
+  <string id="iLD5Lkto" text="Fire Onager"/>
+  <string id="TlP31w8l" text="Bricole"/>
+  <string id="4Skg9QhO" text="Trebuchet"/>
+  <string id="lFl5Ai1a" text="Fire Trebuchet"/>
+  <string id="MaBSSg7I" text="Battering Ram"/>
+  <string id="zt0bVSsU" text="Improved Ram"/>
+ </strings>
+</base>

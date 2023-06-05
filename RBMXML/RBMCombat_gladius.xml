@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-  <CraftedItem id="gladius_b" name="Gladius" crafting_template="Dagger" culture="Culture.empire">
+  <CraftedItem id="gladius_b" name="帝国短剑" crafting_template="Dagger" culture="Culture.empire">
     <Pieces>
       <Piece id="dagger_blade_11" Type="Blade" scale_factor="250" />
       <Piece id="aserai_dagger_guard_1" Type="Guard" scale_factor="110" />
@@ -27,7 +27,7 @@
     <!-- #region Used Throwing Axes -->
   <!-- #region Tier 2 -->
   <CraftedItem id="highland_throwing_axe_1_t2"
-               name="Throwing Labryes"
+               name="双头飞斧"
                crafting_template="ThrowingAxe"
                culture="Culture.battania">
     <Pieces>
@@ -42,7 +42,7 @@
   <!-- #endregion -->
   <!-- #region Tier 4 -->
   <CraftedItem id="southern_throwing_axe_1_t4"
-               name="Huge Throwing Axes"
+               name="巨型飞斧"
                crafting_template="ThrowingAxe"
                culture="Culture.aserai">
     <Pieces>
@@ -55,7 +55,7 @@
     </Pieces>
   </CraftedItem>
   <CraftedItem id="northern_throwing_axe_1_t1"
-               name="Large Throwing Axes"
+               name="大型飞斧"
                crafting_template="ThrowingAxe"
                culture="Culture.sturgia">
     <Pieces>
@@ -68,7 +68,7 @@
     </Pieces>
   </CraftedItem>
   <CraftedItem id="woodland_throwing_axe_1_t1"
-               name="Medium Throwing Axes"
+               name="中型飞斧"
                crafting_template="ThrowingAxe"
                culture="Culture.battania">
     <Pieces>
@@ -81,7 +81,7 @@
     </Pieces>
   </CraftedItem>
   <CraftedItem id="western_throwing_axe_1_t1"
-               name="Small Throwing Axes"
+               name="小型飞斧"
                crafting_template="ThrowingAxe"
                culture="Culture.vlandia">
     <Pieces>

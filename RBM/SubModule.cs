@@ -88,10 +88,10 @@ namespace RBM
             RBMConfig.RBMConfig.LoadConfig();
             //ApplyHarmonyPatches();
 
-            TaleWorlds.MountAndBlade.Module.CurrentModule.AddInitialStateOption(new InitialStateOption("RbmConfiguration", new TextObject("RBM Configuration"), 9999, delegate
+            TaleWorlds.MountAndBlade.Module.CurrentModule.AddInitialStateOption(new InitialStateOption("RbmConfiguration", new TextObject("RBM配置"), 9999, delegate
             {
                 ScreenManager.PushScreen(new RBMConfig.RBMConfigScreen());
-            }, () => (false, new TextObject("RBM Configuration"))));
+            }, () => (false, new TextObject("RBM配置"))));
         }
 
         protected override void OnApplicationTick(float dt)
@@ -110,14 +110,14 @@ namespace RBM
                         if (missionScreen.InputManager.IsKeyPressed(InputKey.V))
                         {
                             Mission.Current.SetFastForwardingFromUI(!Mission.Current.IsFastForward);
-                            InformationManager.DisplayMessage(new InformationMessage("Vroom = " + Mission.Current.IsFastForward, Color.FromUint(4282569842u)));
+                            InformationManager.DisplayMessage(new InformationMessage("战场加速:" + (Mission.Current.IsFastForward ? "开启" : "关闭"), Color.FromUint(4282569842u)));
                         }
                         if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad2))
                         {
                             Frontline.normalCommand = !Frontline.normalCommand;
                             Frontline.aggressiveCommand = !Frontline.normalCommand;
                             Frontline.defensiveCommand = !Frontline.normalCommand;
-                            InformationManager.DisplayMessage(new InformationMessage("Normal", Color.FromUint(4282569842u)));
+                            InformationManager.DisplayMessage(new InformationMessage("常规战术", Color.FromUint(4282569842u)));
                         }
                         if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad1))
                         {
@@ -125,14 +125,14 @@ namespace RBM
                             Frontline.normalCommand = !Frontline.aggressiveCommand;
                             Frontline.defensiveCommand = !Frontline.aggressiveCommand;
 
-                            InformationManager.DisplayMessage(new InformationMessage("Aggressive", Color.FromUint(4282569842u)));
+                            InformationManager.DisplayMessage(new InformationMessage("进攻倾向", Color.FromUint(4282569842u)));
                         }
                         if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad3))
                         {
                             Frontline.defensiveCommand = !Frontline.defensiveCommand;
                             Frontline.normalCommand = !Frontline.defensiveCommand;
                             Frontline.aggressiveCommand = !Frontline.defensiveCommand;
-                            InformationManager.DisplayMessage(new InformationMessage("Defensive", Color.FromUint(4282569842u)));
+                            InformationManager.DisplayMessage(new InformationMessage("防御倾向", Color.FromUint(4282569842u)));
                         }
                     }
                 }

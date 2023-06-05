@@ -60,27 +60,27 @@ namespace RBMConfig
             _cancelText = new TextObject("{=ATCancel}Cancel").ToString();
             RefreshValues();
             //RbmConfigData data;
-            List<string> troopOverhaulOnOff = new List<string> { "Inactive", "Active (Recommended)", };
+            List<string> troopOverhaulOnOff = new List<string> { "关闭", "激活 (推荐)", };
             ActiveTroopOverhaulText = new TextViewModel(new TextObject("Troop Overhaul"));
             ActiveTroopOverhaul = new SelectorVM<SelectorItemVM>(troopOverhaulOnOff, 0, null);
 
-            List<string> rangedReloadSpeed = new List<string> { "Vanilla", "Realistic", "Semi-realistic (Default)" };
+            List<string> rangedReloadSpeed = new List<string> { "原版", "真实", "半真实 (默认)" };
             RangedReloadSpeedText = new TextViewModel(new TextObject("Ranged reload speed"));
             RangedReloadSpeed = new SelectorVM<SelectorItemVM>(rangedReloadSpeed, 0, null);
 
-            List<string> passiveShoulderShields = new List<string> { "Disabled (Default)", "Enabled" };
+            List<string> passiveShoulderShields = new List<string> { "关闭 (默认)", "开启" };
             PassiveShoulderShieldsText = new TextViewModel(new TextObject("Passive Shoulder Shields"));
             PassiveShoulderShields = new SelectorVM<SelectorItemVM>(passiveShoulderShields, 0, null);
 
-            List<string> betterArrowVisuals = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> betterArrowVisuals = new List<string> { "关闭", "开启 (默认)" };
             BetterArrowVisualsText = new TextViewModel(new TextObject("Better Arrow Visuals"));
             BetterArrowVisuals = new SelectorVM<SelectorItemVM>(betterArrowVisuals, 0, null);
 
-            List<string> armorStatusUIEnabled = new List<string> { "Disabled", "Enabled (Default)", };
+            List<string> armorStatusUIEnabled = new List<string> { "关闭", "开启 (默认)", };
             ArmorStatusUIEnabledText = new TextViewModel(new TextObject("Armor Status GUI"));
             ArmorStatusUIEnabled = new SelectorVM<SelectorItemVM>(armorStatusUIEnabled, 0, null);
 
-            List<string> realisticArrowArc = new List<string> { "Disabled (Default)", "Enabled", };
+            List<string> realisticArrowArc = new List<string> { "关闭 (默认)", "开启", };
             RealisticArrowArcText = new TextViewModel(new TextObject("Realistic Arrow Arc"));
             RealisticArrowArc = new SelectorVM<SelectorItemVM>(realisticArrowArc, 0, null);
 
@@ -142,19 +142,19 @@ namespace RBMConfig
                 RealisticArrowArc.SelectedIndex = 0;
             }
 
-            List<string> postureOptions = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> postureOptions = new List<string> { "关闭", "开启 (默认)" };
             PostureSystemEnabledText = new TextViewModel(new TextObject("Posture System"));
             PostureSystemEnabled = new SelectorVM<SelectorItemVM>(postureOptions, 0, null);
 
-            List<string> playerPostureMultiplierOptions = new List<string> { "1x (Default)", "1.5x", "2x" };
+            List<string> playerPostureMultiplierOptions = new List<string> { "1倍 (默认)", "1.5倍", "2倍" };
             PlayerPostureMultiplierText = new TextViewModel(new TextObject("Player Posture Multiplier"));
             PlayerPostureMultiplier = new SelectorVM<SelectorItemVM>(playerPostureMultiplierOptions, 0, null);
 
-            List<string> postureGUIOptions = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> postureGUIOptions = new List<string> { "关闭", "开启 (默认)" };
             PostureGUIEnabledText = new TextViewModel(new TextObject("Posture GUI"));
             PostureGUIEnabled = new SelectorVM<SelectorItemVM>(postureGUIOptions, 0, null);
 
-            List<string> vanillaCombatAiOptions = new List<string> { "Disabled (Default)", "Enabled" };
+            List<string> vanillaCombatAiOptions = new List<string> { "关闭 (默认)", "开启" };
             VanillaCombatAiText = new TextViewModel(new TextObject("Vanilla AI Block/Parry/Attack"));
             VanillaCombatAi = new SelectorVM<SelectorItemVM>(vanillaCombatAiOptions, 0, null);
 
@@ -198,13 +198,13 @@ namespace RBMConfig
                 VanillaCombatAi.SelectedIndex = 0;
             }
 
-            List<string> rbmCombatEnabledOptions = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> rbmCombatEnabledOptions = new List<string> { "关闭", "开启 (默认)" };
             RBMCombatEnabled = new SelectorVM<SelectorItemVM>(rbmCombatEnabledOptions, 0, null);
 
-            List<string> rbmAiEnabledOptions = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> rbmAiEnabledOptions = new List<string> { "关闭", "开启 (默认)" };
             RBMAIEnabled = new SelectorVM<SelectorItemVM>(rbmAiEnabledOptions, 0, null);
 
-            List<string> rbmTournamentEnabledOptions = new List<string> { "Disabled", "Enabled (Default)" };
+            List<string> rbmTournamentEnabledOptions = new List<string> { "关闭", "开启 (默认)" };
             RBMTournamentEnabled = new SelectorVM<SelectorItemVM>(rbmTournamentEnabledOptions, 0, null);
 
             if (RBMConfig.rbmCombatEnabled)

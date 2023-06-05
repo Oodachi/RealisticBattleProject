@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+ <tags>
+  <tag language="简体中文"/>
+ </tags>
+ <strings>
+  <string id="btrf2AXp" text="Baggy Trunks"/>
+  <string id="Zx4h7jDy" text="Dummy Min Armor"/>
+  <string id="ibtt8Chp" text="巴丹尼亚裙衬格纹裤"/>
+  <string id="w6j8Oaai" text="Armored Baggy Trunks"/>
+  <string id="DJjCCQ59" text="巴丹尼亚野人甲"/>
+  <string id="IuD9SaQM" text="Burlap Dress"/>
+  <string id="yTWOMSmv" text="Hemp Tunic"/>
+  <string id="tuEQnm2r" text="Villager Short Dress"/>
+  <string id="qILO0HdK" text="Sleeveless Enveloped Padded Garments"/>
+  <string id="uDrT6v7a" text="西方束腰布衣"/>
+  <string id="bevik0LU" text="低胸连衣裙"/>
+  <string id="MLBA8tej" text="Dress"/>
+  <string id="JsmnUp0T" text="Ladies Dress"/>
+  <string id="vbPBXiPC" text="Rich Tunic"/>
+  <string id="7yGwvnUA" text="毛边束腰短衣"/>
+  <string id="PP5SzUx0" text="Laced Dress"/>
+  <string id="bKBa7ahF" text="Long Simple Robe"/>
+  <string id="U8QfF3Gw" text="Long Woolen Tunic"/>
+  <string id="QuaE76ua" text="Scholars Robe"/>
+  <string id="a1KxyGOj" text="北方连衣裙"/>
+  <string id="t695AnJU" text="Plain Dress"/>
+  <string id="smKogclC" text="Sackcloth Tunic"/>
+  <string id="KrCGcsmJ" text="东方裹身连衣裙"/>
+  <string id="C7oo0zAY" text="东方草原袍"/>
+  <string id="qhbOjHRI" text="Torn Padded Garments"/>
+  <string id="iUjgXGNn" text="西方束腰连衣裙"/>
+  <string id="CEj2Rfh5" text="西方贵族连衣裙"/>
+  <string id="wMO0hoqC" text="西方普通连衣裙"/>
+  <string id="CBUdkmIw" text="Colored Kaftan"/>
+  <string id="SW3lkPHe" text="Colored Bisht"/>
+  <string id="FAPHmzxQ" text="Thawb"/>
+  <string id="bLgnonyc" text="Simple Peasant Robe"/>
+  <string id="i6QMSiut" text="Kaftan with Waistband"/>
+  <string id="whiQg21b" text="Luxury Kaftan"/>
+  <string id="8hDoWBIa" text="Commoners Shirt"/>
+  <string id="KaZY0Ixp" text="高地束腰衣"/>
+  <string id="mkoMUmLh" text="Burlap Waistcoat"/>
+  <string id="2WQTvOLF" text="Cloth Apron"/>
+  <string id="deA729dQ" text="Cut Dress With Pouch"/>
+  <string id="K2JbjKLG" text="Simple Kaftan"/>
+  <string id="XiwTesky" text="Silk Kaftan"/>
+  <string id="VqFV9LS4" text="Red Dress"/>
+  <string id="atu9tCq8" text="Tailored Dress"/>
+  <string id="FOJHPU5N" text="Half Apron"/>
+  <string id="8cM840mh" text="北方奢华束腰衣"/>
+  <string id="gbRVBOLH" text="Commoner Clothes"/>
+  <string id="tVyuxl8e" text="Ragged Robes"/>
+  <string id="cMdtLfGB" text="Tassled Robes"/>
+  <string id="F9GB8lMZ" text="Tattered Rags"/>
+  <string id="y3oIzUEp" text="Tunic With Shoulder Pads"/>
+  <string id="Zvxydvao" text="帝国富人连衣裙"/>
+  <string id="v4THTk5O" text="Kaftan with Leather Belt"/>
+  <string id="jbxeZs8K" text="Commoners Tunic"/>
+  <string id="6Wkq14uk" text="高地农民连衣裙"/>
+  <string id="DlHkNiJA" text="高地连衣裙"/>
+  <string id="Tr3x7ynD" text="高地格子连衣裙"/>
+  <string id="QMAGJdyN" text="高地村民连衣裙"/>
+  <string id="oQSZ0XgP" text="Decorated Thick Tunic"/>
+  <string id="XZAAz7NX" text="帝国束腰短衣"/>
+  <string id="2AcfBbCR" text="Military Tunic"/>
+  <string id="Z9RlnXrD" text="Fur Skirt"/>
+  <string id="TAczhIzX" text="北方毛边束腰衣"/>
+  <string id="aYCvg89I" text="帝国长袍"/>
+  <string id="XyXSx0R8" text="东方普通连衣裙"/>
+  <string id="NUHzapSv" text="Long Hemp Tunic"/>
+  <string id="MKT5IzWm" text="Thick Sleeved Robe"/>
+  <string id="MQ8LCvCE" text="Tied Cloth Tunic"/>
+  <string id="Im7wOGaC" text="北方扣带束腰衣"/>
+  <string id="hELN8VXv" text="Torn Robe"/>
+  <string id="qi1lkMqk" text="Feminine Kaftan"/>
+  <string id="D8xeIXcI" text="高地镇民束腰衣"/>
+  <string id="hXijcZyp" text="Roughcloth Shortcoat"/>
+  <string id="qT6jIu3v" text="Fur Skirt With Tunic"/>
+  <string id="r0Ln9bAp" text="Leather Apron"/>
+  <string id="BavVxSoC" text="Cheap Colored Clothes"/>
+  <string id="HXNb6Cqz" text="Luxury Kaftan with Waistband"/>
+  <string id="v6W9XaDI" text="Old Fur Armor"/>
+  <string id="j7EZxCiG" text="Old Fur Coat"/>
+  <string id="bTUGfbH5" text="Rugged Gambeson"/>
+  <string id="FaWA8c50" text="北方重磅外套"/>
+  <string id="KHFQdxvL" text="北方重磅束腰衣"/>
+  <string id="2KQbV4To" text="Merchant&apos;s Fur Coat"/>
+  <string id="oGVGhYeP" text="东方草原甲"/>
+  <string id="AobNdBBU" text="Cheap Paddings"/>
+  <string id="K2xGw3Oo" text="Dummy Lower Average"/>
+  <string id="dVekhkIU" text="Fur Coat Over Tunic"/>
+  <string id="XH9f3yOX" text="Fur Waistcoat Over Tunic"/>
+  <string id="DuLFJbXJ" text="东方腰带皮衣"/>
+  <string id="wEs2uEmb" text="东方富人外套"/>
+  <string id="YMtHkAUj" text="东方厚外套"/>
+  <string id="1cYka5tR" text="Sleeveless Fur Coat"/>
+  <string id="kanUXCLc" text="高地村民束腰衣"/>
+  <string id="7sgW3eHd" text="东方毛皮连衣裙"/>
+  <string id="fk42FxCE" text="Layered Robe"/>
+  <string id="JK7uQLqb" text="北方皮背心"/>
+  <string id="eWf7bFGo" text="Fur Armor With Strap"/>
+  <string id="Isioqvt9" text="高地布衣"/>
+  <string id="ybpZdt9S" text="北方多层布衣"/>
+  <string id="3BGHFFsL" text="北方填充软甲"/>
+  <string id="Jhshwa48" text="Patched Gambeson"/>
+  <string id="4AfHO0BA" text="Sleeveless Studded Fur Armor"/>
+  <string id="dIfcfMbY" text="Studded Leather Waistcoat"/>
+  <string id="o0ZuY9Ux" text="西方皮外套"/>
+  <string id="ln6ZboT7" text="北方邋遢皮衣"/>
+  <string id="aiER6j1y" text="巴丹尼亚加长格子呢"/>
+  <string id="JslRu3rX" text="东方粗制皮甲"/>
+  <string id="aDDTouCQ" text="帝国填充布衣"/>
+  <string id="VbAHQ1BS" text="Long Fur Coat"/>
+  <string id="EXasg15J" text="北方填充软甲"/>
+  <string id="tiTTWhpW" text="Padded Leather Shirt"/>
+  <string id="tXbRb3QO" text="Studded Fur Armor"/>
+  <string id="wWqavjat" text="Light Long Padded Armor"/>
+  <string id="Yo56PtJZ" text="帝国软甲"/>
+  <string id="1UZGbygw" text="帝国长摆软甲"/>
+  <string id="NVV1j1E4" text="西方软甲"/>
+  <string id="wKucIANJ" text="Leather Coat Over Cloth"/>
+  <string id="ZqTFQeai" text="Leather Tunic"/>
+  <string id="C2Z43pzq" text="北方皮衣衬重磅布衣"/>
+  <string id="QzAvlan7" text="Short Padded Robe"/>
+  <string id="xa7KRSCy" text="Stitched Leather Vest"/>
+  <string id="o24Fpzvu" text="草原镶钉皮衣"/>
+  <string id="21U7JTFv" text="西方武装衣"/>
+  <string id="VSMpadvq" text="Fur Armor"/>
+  <string id="dRLIr22v" text="帝国缝制皮衣"/>
+  <string id="nXajiyWj" text="巴丹尼亚格子呢"/>
+  <string id="46orXtt0" text="Woodland Garments"/>
+  <string id="CLYcnUra" text="Belted Leather Cuirass"/>
+  <string id="4KYF5iCd" text="Layered Leather Tunic"/>
+  <string id="0SsLGsXk" text="Long Padded Robe"/>
+  <string id="qo8hwDNU" text="Rough Fur Armor"/>
+  <string id="bvgHgb6E" text="东方护心镜皮甲"/>
+  <string id="XkL1Re8b" text="Studded Leather Coat"/>
+  <string id="QX2pp6jX" text="帝国软甲配裙"/>
+  <string id="5h1qpdoa" text="帝国软甲配扎带"/>
+  <string id="vU1ibFrY" text="东方强化甲"/>
+  <string id="JKRQ8RDA" text="Padded Cloth With Strips"/>
+  <string id="CtJPuRDa" text="Padded Leather Overcoat"/>
+  <string id="LgftnHPs" text="编织皮外套"/>
+  <string id="4pqIsPhp" text="Padded Short Coat"/>
+  <string id="lZ93DOrn" text="Sleeveless Padded Coat"/>
+  <string id="bz5lXkHS" text="Sleeveless Padded Short Coat"/>
+  <string id="FOx5vZSJ" text="Armored Bearskin"/>
+  <string id="3hOPlGlS" text="帝国软甲衬皮夹克"/>
+  <string id="PL5SG9hI" text="Leather Scale Armor"/>
+  <string id="XU9WgcIO" text="Reinforced Suede Armor"/>
+  <string id="AkItuVRh" text="巴丹尼亚格子呢配护胸板"/>
+  <string id="av4ncLDl" text="帝国辅兵甲"/>
+  <string id="iVataLxL" text="Leather Strips Over Padded Robe"/>
+  <string id="NTaol1uQ" text="Ring Mail"/>
+  <string id="FlikwkEx" text="帝国辅兵甲配扎带"/>
+  <string id="h3vqV5Qy" text="北方皮罩袍"/>
+  <string id="kyPoQt0f" text="帝国简易皮甲"/>
+  <string id="rOpxDHXL" text="东方皮扎甲"/>
+  <string id="WH7bbK6G" text="西方填充外套"/>
+  <string id="Nqa2maO2" text="编织皮外套"/>
+  <string id="Mr06Juj5" text="东方缝制皮外套"/>
+  <string id="B9LjhTj6" text="帝国镶钉皮衣"/>
+  <string id="camFHYrN" text="Leather Armor with Iron Plates"/>
+  <string id="dS4zm0UT" text="Studded Leather Over Aketon"/>
+  <string id="Bv068ziR" text="北方熟铁链甲"/>
+  <string id="y3CwqUDR" text="Highland Mail Shirt"/>
+  <string id="uZ1sIlSQ" text="东方夹板皮背心"/>
+  <string id="EELLBAbX" text="高地鳞甲"/>
+  <string id="EezWSI6v" text="Fortified Mercenary Armor"/>
+  <string id="8TbraEGR" text="西方锁子甲"/>
+  <string id="7EAEIUIY" text="Heavy Ring Mail"/>
+  <string id="12PL4971" text="北方扎甲"/>
+  <string id="ZYQrmlKH" text="高地锁子甲"/>
+  <string id="Mc6IC6UM" text="搭扣野人甲"/>
+  <string id="UEestBsE" text="北方铜鳞背心"/>
+  <string id="aGkXbDlr" text="西方链甲衫"/>
+  <string id="sfPB9ro3" text="北方装饰链铠"/>
+  <string id="VMqzvfDO" text="东方扎带填充扎甲"/>
+  <string id="XTqplCsv" text="北方链铠"/>
+  <string id="Mt24PoKF" text="北方短摆扎甲背心"/>
+  <string id="gSWtpl8a" text="Robe over Mail Shirt"/>
+  <string id="qw2oyv1j" text="林地锁子甲"/>
+  <string id="QaKohN0V" text="帝国链甲衬皮革带"/>
+  <string id="i4CfsNGd" text="帝国链甲背心"/>
+  <string id="jsFgjWOj" text="红罩袍衬链甲"/>
+  <string id="YfB0SJqY" text="白罩袍衬链甲"/>
+  <string id="HKRGEXqy" text="Ranger Mail"/>
+  <string id="KIxX6dH2" text="Rough Fur Over Chain"/>
+  <string id="2cSOn9qb" text="Gambeson over Mail Armor"/>
+  <string id="gT8WENO3" text="Dummy Higher Average"/>
+  <string id="LaKFAU1V" text="帝国链甲衬皮革"/>
+  <string id="yFjmkALW" text="北方皮罩袍衬链甲"/>
+  <string id="omLMiX89" text="Stitched Leather Over Mail"/>
+  <string id="eDMDUUfw" text="Aserai Chain Mail"/>
+  <string id="MTB2BunA" text="Highland Reinforced Mail Over Tartan"/>
+  <string id="k71X3WNK" text="Robe over Mail Hauberk"/>
+  <string id="PTKyNh2O" text="Legionary Mail"/>
+  <string id="WbjNNE8Z" text="Highland Reinforced Fian Mail"/>
+  <string id="Cp5aIHqR" text="北方扎甲背心"/>
+  <string id="iAWzr8Q0" text="Banded Leather Over Mail"/>
+  <string id="fptsl0Qn" text="Kilt Over Plated Leather"/>
+  <string id="DyXDcO36" text="Aserai Decorated Chain Mail"/>
+  <string id="ZOoxd36t" text="高地雇佣兵甲"/>
+  <string id="q3ePGPbF" text="帝国骑兵甲"/>
+  <string id="3lauB1HH" text="Bronze Lamellar Vest over Gambeson"/>
+  <string id="V7U0fFU9" text="高地鳞甲"/>
+  <string id="mBVCyRY5" text="Decorated Legionary Mail"/>
+  <string id="wSUN0Dmo" text="Dummy Max Armor"/>
+  <string id="uHIVkxVt" text="北方铜鳞背心衬软甲"/>
+  <string id="mMGfhc3M" text="高地贵族甲"/>
+  <string id="oJKXjRJ3" text="Highland Scale Armor Over Cloth"/>
+  <string id="S0IkfoDo" text="东方夹板皮衣"/>
+  <string id="8ulJswRY" text="夹板皮外套"/>
+  <string id="p949oNWk" text="夹板外套衬链甲"/>
+  <string id="6qaNQAND" text="东方扎甲"/>
+  <string id="REYaHXQb" text="斯特吉亚骑兵甲"/>
+  <string id="7HbspP6x" text="Ornate Legionary Scale Mail"/>
+  <string id="ekTny86c" text="帝国扎甲衬皮革"/>
+  <string id="ojhEwC8M" text="北方铜扎甲衬链甲"/>
+  <string id="WST7ftTa" text="北方覆板衣"/>
+  <string id="Auwoehal" text="高地军阀甲"/>
+  <string id="ItZt3amR" text="东方铜扎甲衬链甲"/>
+  <string id="iCy5h0Y9" text="北方扎甲衬链铠"/>
+  <string id="bxzrU99N" text="南方链甲衬黄铜覆板甲"/>
+  <string id="OyBdFyeV" text="南方无袖链甲衬黄铜覆板甲"/>
+  <string id="CttLMqiq" text="可汗覆板甲"/>
+  <string id="79I1U8OC" text="青铜装饰胸甲"/>
+  <string id="TOf8dVcn" text="华丽装饰鳞甲"/>
+ </strings>
+</base>
