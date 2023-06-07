@@ -702,13 +702,15 @@ namespace RBMTournament
                                 int rollNeeded = 100 - MathF.Round(im.ProductionDropScore);
                                 if (roll >= rollNeeded)
                                 {
-                                    InformationManager.DisplayMessage(new InformationMessage("恭喜你，鉴定出了" + im.Name + "品质! 鉴定值:" + roll + " 需求值:" + rollNeeded));
+                                    var imName = im.Name.Length > 2 ? im.Name.ToString().Substring(0, 2) : im.Name.ToString();
+                                    InformationManager.DisplayMessage(new InformationMessage("恭喜你,奖品前缀[" + imName + "]检定成功! 投骰: " + roll + " 需求: " + rollNeeded));
                                     eePrize.SetModifier(im);
                                     break;
                                 }
                                 else
                                 {
-                                    InformationManager.DisplayMessage(new InformationMessage("你错过了" + im.Name + "品质, 鉴定值:" + roll + " 需求值: " + rollNeeded));
+                                    var imName = im.Name.Length > 2 ? im.Name.ToString().Substring(0, 2) : im.Name.ToString();
+                                    InformationManager.DisplayMessage(new InformationMessage("很遗憾,奖品前缀[" + imName + "]检定失败, 投骰:" + roll + " 需求: " + rollNeeded));
                                 }
                             }
                         }
