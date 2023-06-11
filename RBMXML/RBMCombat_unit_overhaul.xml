@@ -2211,7 +2211,7 @@
   <NPCCharacter id="aserai_skirmisher"
                 default_group="Ranged"
                 level="16"
-                name="Aserai Archer"
+                name="阿塞莱弓箭手"
                 occupation="Soldier"
                 culture="Culture.aserai">
     <face>
@@ -2306,7 +2306,7 @@
   <NPCCharacter id="aserai_archer"
                 default_group="Ranged"
                 level="21"
-                name="Aserai Experienced Archer"
+                name="阿塞莱资深射手"
                 occupation="Soldier"
                 culture="Culture.aserai">
     <face>
@@ -11989,7 +11989,7 @@
   <NPCCharacter id="vlandian_spearman"
                 default_group="Cavalry"
                 level="16"
-                name="Vlandian Light Cavalry"
+                name="瓦蓝迪亚轻骑兵"
                 upgrade_requires="ItemCategory.horse"
                 occupation="Soldier"
                 culture="Culture.vlandia">
@@ -12645,7 +12645,7 @@
   <NPCCharacter id="vlandian_light_cavalry"
                 default_group="Cavalry"
                 level="21"
-                name="Vlandian Medium Cavalry"
+                name="瓦蓝迪亚骑兵"
                 upgrade_requires="ItemCategory.horse"
                 occupation="Soldier"
                 culture="Culture.vlandia">
