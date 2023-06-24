@@ -682,7 +682,7 @@ namespace RBMAI
                                     AgentPostures.postureVisual._dataSource.EnemyHealthMax = (int)enemyAgent.HealthLimit;
                                     if (enemyAgent.IsMount)
                                     {
-                                        AgentPostures.postureVisual._dataSource.EnemyName = enemyAgent.RiderAgent?.Name + " (Mount)";
+                                        AgentPostures.postureVisual._dataSource.EnemyName = enemyAgent.RiderAgent?.Name + " (坐骑)";
                                     }
                                     else
                                     {

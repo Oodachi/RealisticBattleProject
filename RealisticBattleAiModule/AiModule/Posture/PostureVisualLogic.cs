@@ -54,6 +54,7 @@ namespace RBMAI
             missionScreen.AddLayer(_gauntletLayer);
             _gauntletLayer.LoadMovie("CombatUI", (ViewModel)_dataSource);
             _dataSource.ShowPlayerPostureStatus = true;
+            _dataSource.PostureLabel = "姿态";
             AgentPostures.postureVisual = this;
         }
 
@@ -90,7 +91,7 @@ namespace RBMAI
 
                 if (affectedAgent.IsMount)
                 {
-                    _dataSource.EnemyName = affectedAgent.RiderAgent?.Name + " (Mount)";
+                    _dataSource.EnemyName = affectedAgent.RiderAgent?.Name + " (坐骑)";
                 }
                 else
                 {
