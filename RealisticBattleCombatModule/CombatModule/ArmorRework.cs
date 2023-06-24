@@ -515,9 +515,9 @@ namespace RBMCombat
             return baseValue;
         }
 
-        private static bool Prefix(ref int armorValue, ref int __result, ref int ____armor)
+        private static bool Prefix(ref int armorValue, ref int __result)
         {
-            float calculatedModifier = 1f + (____armor / 100f);
+            float calculatedModifier = 1f + (armorValue / 100f);
             int result = ModifyFactor(armorValue, calculatedModifier);
             __result = MBMath.ClampInt(result, 1, result);
             return false;
@@ -541,9 +541,9 @@ namespace RBMCombat
             return baseValue;
         }
 
-        private static bool Prefix(ref int baseDamage, ref int __result, ref int ____damage)
+        private static bool Prefix(ref int baseDamage, ref int __result)
         {
-            float calculatedModifier = 1f + (____damage / 100f);
+            float calculatedModifier = 1f + (baseDamage / 100f);
             int result = ModifyFactor(baseDamage, calculatedModifier);
             __result = MBMath.ClampInt(result, 1, result);
             return false;

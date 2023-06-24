@@ -1,5 +1,5 @@
 ﻿using HarmonyLib;
-using RBMAI;
+// using RBMAI;
 using RBMCombat;
 using RBMTournament;
 using System;
@@ -16,7 +16,7 @@ namespace RBM
 {
     public static class HarmonyModules
     {
-        public static Harmony rbmaiHarmony = new Harmony("com.rbmai");
+        // public static Harmony rbmaiHarmony = new Harmony("com.rbmai");
         public static Harmony rbmtHarmony = new Harmony("com.rbmt");
         public static Harmony rbmcombatHarmony = new Harmony("com.rbmcombat");
         public static Harmony rbmHarmony = new Harmony("com.rbmmain");
@@ -38,6 +38,11 @@ namespace RBM
 
         //    //harmony.Patch(original, postfix: new HarmonyMethod(postfix));
         //}
+        
+        protected override void OnBeforeInitialModuleScreenSetAsRoot()
+        {
+            InformationManager.DisplayMessage(new InformationMessage("RBM 梧桐临时编译版本[6-24], 为 1.2.0bate 临时编译, 关闭了全部AI(改动太大救不回来), 战斗模块, 竞技场模块可用. 若RBM适配了1.2.0就不要再使用这个版本. ", Colors.Red));
+        }
 
         public static void ApplyHarmonyPatches()
         {
@@ -56,11 +61,11 @@ namespace RBM
             }
             if (RBMConfig.RBMConfig.rbmAiEnabled)
             {
-                RBMAiPatcher.FirstPatch(ref HarmonyModules.rbmaiHarmony);
+                // RBMAiPatcher.FirstPatch(ref HarmonyModules.rbmaiHarmony);
             }
             else
             {
-                HarmonyModules.rbmaiHarmony.UnpatchAll(HarmonyModules.rbmaiHarmony.Id);
+                // HarmonyModules.rbmaiHarmony.UnpatchAll(HarmonyModules.rbmaiHarmony.Id);
             }
             if (RBMConfig.RBMConfig.rbmCombatEnabled)
             {
@@ -76,15 +81,15 @@ namespace RBM
 
         public static void UnpatchAllRBM()
         {
-            RBMAiPatcher.patched = false;
+            // RBMAiPatcher.patched = false;
             HarmonyModules.rbmHarmony.UnpatchAll(HarmonyModules.rbmHarmony.Id);
             HarmonyModules.rbmtHarmony.UnpatchAll(HarmonyModules.rbmtHarmony.Id);
-            HarmonyModules.rbmaiHarmony.UnpatchAll(HarmonyModules.rbmaiHarmony.Id);
+            // HarmonyModules.rbmaiHarmony.UnpatchAll(HarmonyModules.rbmaiHarmony.Id);
             HarmonyModules.rbmcombatHarmony.UnpatchAll(HarmonyModules.rbmcombatHarmony.Id);
         }
 
         protected override void OnSubModuleLoad()
-        {
+        { 
             RBMConfig.RBMConfig.LoadConfig();
             //ApplyHarmonyPatches();
 
@@ -112,28 +117,28 @@ namespace RBM
                             Mission.Current.SetFastForwardingFromUI(!Mission.Current.IsFastForward);
                             InformationManager.DisplayMessage(new InformationMessage("战场加速:" + (Mission.Current.IsFastForward ? "开启" : "关闭"), Color.FromUint(4282569842u)));
                         }
-                        if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad2))
-                        {
-                            Frontline.normalCommand = !Frontline.normalCommand;
-                            Frontline.aggressiveCommand = !Frontline.normalCommand;
-                            Frontline.defensiveCommand = !Frontline.normalCommand;
-                            InformationManager.DisplayMessage(new InformationMessage("常规战术", Color.FromUint(4282569842u)));
-                        }
-                        if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad1))
-                        {
-                            Frontline.aggressiveCommand = !Frontline.aggressiveCommand;
-                            Frontline.normalCommand = !Frontline.aggressiveCommand;
-                            Frontline.defensiveCommand = !Frontline.aggressiveCommand;
-
-                            InformationManager.DisplayMessage(new InformationMessage("进攻倾向", Color.FromUint(4282569842u)));
-                        }
-                        if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad3))
-                        {
-                            Frontline.defensiveCommand = !Frontline.defensiveCommand;
-                            Frontline.normalCommand = !Frontline.defensiveCommand;
-                            Frontline.aggressiveCommand = !Frontline.defensiveCommand;
-                            InformationManager.DisplayMessage(new InformationMessage("防御倾向", Color.FromUint(4282569842u)));
-                        }
+                        // if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad2))
+                        // {
+                        //     Frontline.normalCommand = !Frontline.normalCommand;
+                        //     Frontline.aggressiveCommand = !Frontline.normalCommand;
+                        //     Frontline.defensiveCommand = !Frontline.normalCommand;
+                        //     InformationManager.DisplayMessage(new InformationMessage("常规战术", Color.FromUint(4282569842u)));
+                        // }
+                        // if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad1))
+                        // {
+                        //     Frontline.aggressiveCommand = !Frontline.aggressiveCommand;
+                        //     Frontline.normalCommand = !Frontline.aggressiveCommand;
+                        //     Frontline.defensiveCommand = !Frontline.aggressiveCommand;
+                        //
+                        //     InformationManager.DisplayMessage(new InformationMessage("进攻倾向", Color.FromUint(4282569842u)));
+                        // }
+                        // if (missionScreen.InputManager.IsKeyPressed(InputKey.Numpad3))
+                        // {
+                        //     Frontline.defensiveCommand = !Frontline.defensiveCommand;
+                        //     Frontline.normalCommand = !Frontline.defensiveCommand;
+                        //     Frontline.aggressiveCommand = !Frontline.defensiveCommand;
+                        //     InformationManager.DisplayMessage(new InformationMessage("防御倾向", Color.FromUint(4282569842u)));
+                        // }
                     }
                 }
             }
@@ -153,7 +158,7 @@ namespace RBM
             Game.Current.GameTextManager.LoadGameTexts();
             if (RBMConfig.RBMConfig.developerMode)
             {
-                mission.AddMissionBehavior((MissionBehavior)(object)new BattleStatsLogic());
+                // mission.AddMissionBehavior((MissionBehavior)(object)new BattleStatsLogic());
             }
             if (RBMConfig.RBMConfig.rbmCombatEnabled)
             {
@@ -166,25 +171,25 @@ namespace RBM
             {
                 if (RBMConfig.RBMConfig.postureEnabled && RBMConfig.RBMConfig.postureGUIEnabled)
                 {
-                    mission.AddMissionBehavior((MissionBehavior)(object)new PostureVisualLogic());
+                    // mission.AddMissionBehavior((MissionBehavior)(object)new PostureVisualLogic());
                 }
-                mission.AddMissionBehavior((MissionBehavior)(object)new SiegeArcherPoints());
-                mission.AddMissionBehavior((MissionBehavior)(object)new PostureLogic());
+                // mission.AddMissionBehavior((MissionBehavior)(object)new SiegeArcherPoints());
+                // mission.AddMissionBehavior((MissionBehavior)(object)new PostureLogic());
             }
             else
             {
-                if (mission.GetMissionBehavior<SiegeArcherPoints>() != null)
-                {
-                    mission.RemoveMissionBehavior(mission.GetMissionBehavior<SiegeArcherPoints>());
-                }
-                if (mission.GetMissionBehavior<PostureVisualLogic>() != null)
-                {
-                    mission.RemoveMissionBehavior(mission.GetMissionBehavior<PostureVisualLogic>());
-                }
-                if (mission.GetMissionBehavior<PostureLogic>() != null)
-                {
-                    mission.RemoveMissionBehavior(mission.GetMissionBehavior<PostureLogic>());
-                }
+                // if (mission.GetMissionBehavior<SiegeArcherPoints>() != null)
+                // {
+                    // mission.RemoveMissionBehavior(mission.GetMissionBehavior<SiegeArcherPoints>());
+                // }
+                // if (mission.GetMissionBehavior<PostureVisualLogic>() != null)
+                // {
+                    // mission.RemoveMissionBehavior(mission.GetMissionBehavior<PostureVisualLogic>());
+                // }
+                // if (mission.GetMissionBehavior<PostureLogic>() != null)
+                // {
+                    // mission.RemoveMissionBehavior(mission.GetMissionBehavior<PostureLogic>());
+                // }
             }
             base.OnMissionBehaviorInitialize(mission);
         }
